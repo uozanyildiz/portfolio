@@ -1,17 +1,54 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import Projects from './components/Projects/Projects';
+
+const mainTheme = {
+	colors: {
+		primary: '#6E3CBC',
+		secondary: '#6E3CBC',
+		secondaryDark: '#7267CB',
+		background: '#0F0E0E',
+		secondaryBackground: '#6E3CBC',
+		white: '#fff',
+	},
+};
+
+//Global style for project
+const GlobalTheme = createGlobalStyle`
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	}
+
+
+	body {
+		font-family: 'Raleway', sans-serif;
+		background-color: #0F0E0E;
+		color: white;
+	}
+
+	#root{
+		margin: 0;
+		width: 100%;
+	}
+`;
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<GlobalTheme />
+		<Router>
+			<ThemeProvider theme={mainTheme}>
+				<Routes>
+					<Route path='/' element={<App />} />
+					<Route path='/projects' element={<Projects />} />
+				</Routes>
+			</ThemeProvider>
+		</Router>
+	</React.StrictMode>,
+	document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
