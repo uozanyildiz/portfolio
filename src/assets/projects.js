@@ -17,4 +17,13 @@ export const PROJECTS = [
 		website: 'https://mypetfriend.uozanyildiz.dev',
 		source: 'https://www.github.com/uozanyildiz/mypetfriend',
 	},
+	{
+		title: 'Hex To Color',
+		img: '/img/project/hextocolor.png',
+		chips: ['react', 'styled components', 'ntcjs'],
+		description:
+			'give it a hex code, and it will find the name of color. also you can use it to create beautiful gradients with another selected color.',
+		website: 'https://hextocolor.uozanyildiz.dev',
+		source: 'https://www.github.com/uozanyildiz/hextocolor',
+	},
 ];
