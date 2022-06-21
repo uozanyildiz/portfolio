@@ -17,7 +17,7 @@ const getTechIconNames = (iconPaths) => {
 	});
 };
 
-const List = () => {
+const SkillList = () => {
 	const techIcons = getAllTechIcons();
 	const techIconsNames = getTechIconNames(techIcons);
 	const cardList = techIcons.map((path, i) => (
@@ -37,7 +37,7 @@ const Skills = () => {
 			development path. I am constantly trying to learn new libraries and
 			frameworks, as front-end development is always improving and evolving.
 			<CardContainer>
-				<List />
+				<SkillList />
 			</CardContainer>
 		</Container>
 	);
