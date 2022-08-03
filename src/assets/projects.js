@@ -32,7 +32,7 @@ export const PROJECTS = [
 		chips: ['react', 'styled components', 'react router'],
 		description:
 			'a simple food market front-end. i developed this because i wanted to learn how to write responsive components with styled components, also i wanted to improve my css skills. i will add a cms in future to make site fully functional with admin dashboard',
-		website: 'https://hextocolor.uozanyildiz.dev',
-		source: 'https://www.github.com/uozanyildiz/hextocolor',
+		website: 'https://foodieland.uozanyildiz.dev',
+		source: 'https://www.github.com/uozanyildiz/foodieland',
 	},
 ];
