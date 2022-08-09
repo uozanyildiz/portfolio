@@ -2,9 +2,9 @@ export const PROJECTS = [
 	{
 		title: 'My Portfolio',
 		img: '/img/project/portfolio.png',
-		chips: ['react', 'styled components', 'react icons'],
+		chips: ['react', 'styled components', 'react-icons'],
 		description:
-			'this website :) i was learning styled component at this time and i think this project really helped me learn through the basics.',
+			'i was learning styled component while developing this project and i think this project really helped me learn through the basics and responsive design with styled components.',
 		website: 'https://mypetfriend.uozanyildiz.dev',
 		source: 'https://www.github.com/uozanyildiz/mypetfriend',
 	},
@@ -14,27 +14,26 @@ export const PROJECTS = [
 		chips: [
 			'react',
 			'react-query',
-			'tailwindcss',
 			'axios',
 			'react-router',
 			'react-icons',
-			'luxon',
 			'universal-cookie',
-			'react-context-api',
+			'luxon',
+			'react-context',
 		],
 		description:
-			'airmail is a free service that allows getting instant temporary email. it allows users to have a disposable e-mail, in order to prevent spamming from your personal e-mail address.',
+			'airmail is a free service that allows getting instant temporary email using mail.gw API. this allows users to quickly registrate to any website they like, without receiving any spamming mails.',
 		website: 'https://airmail.uozanyildiz.dev',
 		source: 'https://www.github.com/uozanyildiz/airmail',
 	},
 	{
 		title: 'Foodieland',
 		img: '/img/project/foodieland.png',
-		chips: ['react', 'styled components', 'react router'],
+		chips: ['react', 'styled components', 'react-router'],
 		description:
-			'a simple food market front-end. i developed this because i wanted to learn how to write responsive components with styled components, also i wanted to improve my css skills. i will add a cms in future to make site fully functional with admin dashboard',
-		website: 'https://foodieland.uozanyildiz.dev',
-		source: 'https://www.github.com/uozanyildiz/foodieland',
+			'a simple food market front-end. i wanted to learn how to write responsive components with styled components, also i wanted to improve my css skills while developing this project. i am planning to add a cms in future to make site fully functional with dashboard.',
+		website: 'https://hextocolor.uozanyildiz.dev',
+		source: 'https://www.github.com/uozanyildiz/hextocolor',
 	},
 	{
 		title: 'Hex To Color',
@@ -45,14 +44,13 @@ export const PROJECTS = [
 		website: 'https://hextocolor.uozanyildiz.dev',
 		source: 'https://www.github.com/uozanyildiz/hextocolor',
 	},
-
 	{
-		title: 'My Pet Friend',
-		img: '/img/project/mypetfriend.png',
-		chips: ['react', 'strapi', 'bootstrap', 'google maps api'],
+		title: 'Foodieland',
+		img: '/img/project/foodieland.png',
+		chips: ['react', 'styled components', 'react router'],
 		description:
-			'a blog application created with react & strapi and google maps api, includes basic features such as creating blog post and categories, and search. also has a page where users can see nearest veterinarians and petshops within selected radius.',
-		website: 'https://mypetfriend.uozanyildiz.dev',
-		source: 'https://www.github.com/uozanyildiz/mypetfriend',
+			'a simple food market front-end. i developed this because i wanted to learn how to write responsive components with styled components, also i wanted to improve my css skills. i will add a cms in future to make site fully functional with admin dashboard',
+		website: 'https://hextocolor.uozanyildiz.dev',
+		source: 'https://www.github.com/uozanyildiz/hextocolor',
 	},
 ];

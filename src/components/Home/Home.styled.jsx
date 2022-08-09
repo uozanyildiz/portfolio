@@ -54,7 +54,7 @@ export const HomeDescriptionText = styled.div`
 `;
 
 export const HomeDescriptionImage = styled.img`
-	max-width: 75%;
+	max-width: 50%;
 	height: 75%;
 
 	@media ${device.tablet} {
