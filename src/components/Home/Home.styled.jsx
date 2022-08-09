@@ -54,12 +54,12 @@ export const HomeDescriptionText = styled.div`
 `;
 
 export const HomeDescriptionImage = styled.img`
-	max-width: 50%;
-	height: 75%;
+	max-width: 75%;
+	display: block;
+	height: auto;
 
 	@media ${device.tablet} {
 		max-width: 25%;
-		height: 25%;
 	}
 `;
 
