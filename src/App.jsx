@@ -6,12 +6,12 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Skillset from './components/Skillset/Skillset';
 
-ReactGA.initialize('G-RG2VSGT5B0');
+// ReactGA.initialize('G-RG2VSGT5B0');
 
 const App = () => {
-	useEffect(() => {
-		ReactGA.pageview(window.location.pathname + window.location.search);
-	}, []);
+	// useEffect(() => {
+	// 	ReactGA.pageview(window.location.pathname + window.location.search);
+	// }, []);
 
 	return (
 		<Container>
