@@ -2,8 +2,6 @@ import React from 'react';
 import App from './App';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import ReactDOM from 'react-dom';
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-RG2VSGT5B0');
 
 const mainTheme = {
 	breakpoints: {

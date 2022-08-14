@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import styled from 'styled-components';
 import { device } from './components/device';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Skillset from './components/Skillset/Skillset';
+
+ReactGA.initialize('G-RG2VSGT5B0');
+
 const App = () => {
+	useEffect(() => {
+		ReactGA.pageview(window.location.pathname + window.location.search);
+	}, []);
+
 	return (
 		<Container>
 			<Home />
@@ -13,9 +21,6 @@ const App = () => {
 		</Container>
 	);
 };
-
-//TODO: fix project button for responsive
-//TODO: fix chips for responsive (let them collapse) // grid
 
 const Container = styled.div`
 	margin-top: 30px;
